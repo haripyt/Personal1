@@ -554,15 +554,51 @@ Remove or comment-out the code block below to see how the browser will fall-back
             margin: 0 !important;
         }
     </style>
-	<style>
+	 <style>
            /* Hide the navigation bar by default */
 .profile-stats {
   display: none;
 }
 
-/* Apply styles for screens with a maximum width of, for example, 768px (typical for mobile devices) */
+/* Apply styles for screens with a maximum width of, for example, 768px (typical for mobile devices) */  
 @media (max-width: 768px) {
   .profile-stats {
+    display: block; /* Show the navigation bar */
+  }
+}
+
+           /* Hide the navigation bar by default */
+.profile-image1 {
+  display: none;
+}
+
+/* Apply styles for screens with a maximum width of, for example, 768px (typical for mobile devices) */  
+@media (min-width: 768px) {
+  .profile-image1 {
+    display: block; /* Show the navigation bar */
+  }
+}
+
+           /* Hide the navigation bar by default */
+.profile-bio1 {
+  display: none;
+}
+
+/* Apply styles for screens with a maximum width of, for example, 768px (typical for mobile devices) */  
+@media (min-width: 768px) {
+  .profile-bio1 {
+    display: block; /* Show the navigation bar */
+  }
+}
+
+          /* Hide the navigation bar by default */
+.profile-bio {
+  display: none;
+}
+
+/* Apply styles for screens with a maximum width of, for example, 768px (typical for mobile devices) */  
+@media (max-width: 768px) {
+  .profile-bio {
     display: block; /* Show the navigation bar */
   }
 }
@@ -769,6 +805,13 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
             </div>
 
+                 <div class="profile-image1" >
+
+
+                <a href="https://haripyt.github.io/PROFILE/"><img src="images/1.jpg" alt=""  style="box-shadow: 1px 1px 1px  gray;height: 187px;width: 187px;border-radius: 100px;margin-left: -220px;margin-top: 20px; "></a> 
+
+
+            </div>
                 
                      
                   <!-- <button class="btn profile-edit-btn" onclick="document.location='https://haripyt.github.io/PROFILE/'" style="box-shadow:1px 1px 1px gray;border-radius: 10px;width: 80px;margin-left: 185px;margin-top: -57px;"> Works   </button>    -->
@@ -792,7 +835,21 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
             </div>
            
-            
+             <div class="profile-bio1" style="margin-top:-195px" >
+
+                
+                <p><span class="profile-real-name" style="color: #c2c2c2;" >Hariharan</span>
+
+
+                   
+                    
+                    <span style="color: #c2c2c2;" ><br>𝕊𝕋𝕌𝔻𝔼ℕ𝕋 | 𝔻𝔼𝕊𝕀𝔾ℕ𝔼ℝ<br><span style="color: #c2c2c2;" >Designer Portfolio:<a href="https://www.behance.net/harihere">@Behance</a><span><br>My everyday work is presented here, what I Love,what I Do..<br /><span>
+                    
+                    <span style="color: #c2c2c2;" >Little More  <a href="https://drive.google.com/file/d/1Yet4idRxo2k98oxQlbx3Q88M5PmaJ5qs/view?usp=sharing" target="blank"> About Me</a><br /><span>
+                    <span style="color: #c2c2c2;" >Following </span><span style="color: #c2c2c2;">   figma, adobe, research & others </span>
+
+            </div>
+
 
         <!-- End of profile section -->
 
