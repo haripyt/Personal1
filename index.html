@@ -554,6 +554,21 @@ Remove or comment-out the code block below to see how the browser will fall-back
             margin: 0 !important;
         }
     </style>
+	<style>
+           /* Hide the navigation bar by default */
+.profile-stats {
+  display: none;
+}
+
+/* Apply styles for screens with a maximum width of, for example, 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+  .profile-stats {
+    display: block; /* Show the navigation bar */
+  }
+}
+
+    </style>
+	
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
 
